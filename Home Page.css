@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+}
+
+div{
+    padding: 30px;
+    color: rosybrown;
+    font-family:cursive;
+    height: 100vh;
+}
+section{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
+ padding: 20px;
+ font-size: 35px;
+ background-color: rgb(134, 149, 162);
+}
+
+h2{
+    text-align: center;
+    font-size: 7vw;
+}
+
+ul{
+    width: 100%;
+    background: rgb(231, 225, 230);
+    height: 60px;
+    margin:0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    letter-spacing: 1;
+    display: flex;
+    justify-content: space-around;
+    opacity:0.3;
+}
+
+ul li a{
+    color: rgb(29, 32, 206);
+    line-height: 60px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
